@@ -81,6 +81,14 @@ binary-extensions@^2.0.0:
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
 
+bl@^2.2.1:
+  version "2.2.1"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/bl/-/bl-2.2.1.tgz#8c11a7b730655c5d56898cdc871224f40fd901d5"
+  integrity sha1-jBGntzBlXF1WiYzchxIk9A/ZAdU=
+  dependencies:
+    readable-stream "^2.3.5"
+    safe-buffer "^5.1.1"
+
 body-parser@1.19.0:
   version "1.19.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
@@ -125,6 +133,11 @@ braces@~3.0.2:
   integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
   dependencies:
     fill-range "^7.0.1"
+
+bson@^1.1.4:
+  version "1.1.6"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/bson/-/bson-1.1.6.tgz#fb819be9a60cd677e0853aee4ca712a785d6618a"
+  integrity sha1-+4Gb6aYM1nfghTruTKcSp4XWYYo=
 
 bytes@3.1.0:
   version "3.1.0"
@@ -240,6 +253,19 @@ cookie@0.4.0:
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha1-vrQ35wIrO21JAZ0IhmUwPr6cFLo=
 
+core-util-is@~1.0.0:
+  version "1.0.2"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+  integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+
+cors@^2.8.5:
+  version "2.8.5"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
+  integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
+  dependencies:
+    object-assign "^4"
+    vary "^1"
+
 crypto-random-string@^2.0.0:
   version "2.0.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
@@ -275,6 +301,11 @@ defer-to-connect@^1.0.1:
   version "1.1.3"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/defer-to-connect/-/defer-to-connect-1.1.3.tgz#331ae050c08dcf789f8c83a7b81f0ed94f4ac591"
   integrity sha1-MxrgUMCNz3ifjIOnuB8O2U9KxZE=
+
+denque@^1.4.1:
+  version "1.5.0"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/denque/-/denque-1.5.0.tgz#773de0686ff2d8ec2ff92914316a47b73b1c73de"
+  integrity sha1-dz3gaG/y2Owv+SkUMWpHtzscc94=
 
 depd@~1.1.2:
   version "1.1.2"
@@ -540,7 +571,7 @@ inherits@2.0.3:
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-inherits@2.0.4:
+inherits@2.0.4, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
@@ -634,6 +665,11 @@ is-yarn-global@^0.3.0:
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/is-yarn-global/-/is-yarn-global-0.3.0.tgz#d502d3382590ea3004893746754c89139973e232"
   integrity sha1-1QLTOCWQ6jAEiTdGdUyJE5lz4jI=
 
+isarray@~1.0.0:
+  version "1.0.0"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+  integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+
 json-buffer@3.0.0:
   version "3.0.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/json-buffer/-/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
@@ -674,6 +710,11 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+
+memory-pager@^1.0.2:
+  version "1.5.0"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/memory-pager/-/memory-pager-1.5.0.tgz#d8751655d22d384682741c972f2c3d6dfa3e66b5"
+  integrity sha1-2HUWVdItOEaCdByXLyw9bfo+ZrU=
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -718,6 +759,19 @@ minimist@^1.2.0:
   version "1.2.5"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+
+mongodb@^3.6.5:
+  version "3.6.5"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/mongodb/-/mongodb-3.6.5.tgz#c27d786fd4d3c83dc19302483707d12a9d2aee5f"
+  integrity sha1-wn14b9TTyD3BkwJINwfRKp0q7l8=
+  dependencies:
+    bl "^2.2.1"
+    bson "^1.1.4"
+    denque "^1.4.1"
+    require_optional "^1.0.1"
+    safe-buffer "^5.1.2"
+  optionalDependencies:
+    saslprep "^1.0.0"
 
 morgan@^1.10.0:
   version "1.10.0"
@@ -783,6 +837,11 @@ normalize-url@^4.1.0:
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha1-RTNUCH5sqWlXvY9br3U/WYIUISk=
 
+object-assign@^4:
+  version "4.1.1"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -836,6 +895,11 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+process-nextick-args@~2.0.0:
+  version "2.0.1"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
+  integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
 
 proxy-addr@~2.0.5:
   version "2.0.6"
@@ -895,6 +959,19 @@ rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+readable-stream@^2.3.5:
+  version "2.3.7"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
+    util-deprecate "~1.0.1"
+
 readdirp@~3.5.0:
   version "3.5.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
@@ -916,6 +993,19 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
+require_optional@^1.0.1:
+  version "1.0.1"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/require_optional/-/require_optional-1.0.1.tgz#4cf35a4247f64ca3df8c2ef208cc494b1ca8fc2e"
+  integrity sha1-TPNaQkf2TKPfjC7yCMxJSxyo/C4=
+  dependencies:
+    resolve-from "^2.0.0"
+    semver "^5.1.0"
+
+resolve-from@^2.0.0:
+  version "2.0.0"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/resolve-from/-/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
+  integrity sha1-lICrIOlP+h2egKgEx+oUdhGWa1c=
+
 responselike@^1.0.2:
   version "1.0.2"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/responselike/-/responselike-1.0.2.tgz#918720ef3b631c5642be068f15ade5a46f4ba1e7"
@@ -923,15 +1013,27 @@ responselike@^1.0.2:
   dependencies:
     lowercase-keys "^1.0.0"
 
-safe-buffer@5.1.2:
+safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
+
+safe-buffer@^5.1.1, safe-buffer@^5.1.2:
+  version "5.2.1"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
 
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+
+saslprep@^1.0.0:
+  version "1.0.3"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/saslprep/-/saslprep-1.0.3.tgz#4c02f946b56cf54297e347ba1093e7acac4cf226"
+  integrity sha1-TAL5RrVs9UKX40e6EJPnrKxM8iY=
+  dependencies:
+    sparse-bitfield "^3.0.3"
 
 semver-diff@^3.1.1:
   version "3.1.1"
@@ -940,7 +1042,7 @@ semver-diff@^3.1.1:
   dependencies:
     semver "^6.3.0"
 
-semver@^5.7.1:
+semver@^5.1.0, semver@^5.7.1:
   version "5.7.1"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
@@ -989,6 +1091,13 @@ signal-exit@^3.0.2:
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha1-oUEMLt2PB3sItOJTyOrPyvBXRhw=
 
+sparse-bitfield@^3.0.3:
+  version "3.0.3"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz#ff4ae6e68656056ba4b3e792ab3334d38273ca11"
+  integrity sha1-/0rm5oZWBWuks+eSqzM004JzyhE=
+  dependencies:
+    memory-pager "^1.0.2"
+
 "statuses@>= 1.5.0 < 2", statuses@~1.5.0:
   version "1.5.0"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
@@ -1011,6 +1120,13 @@ string-width@^4.0.0, string-width@^4.1.0:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
+
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  integrity sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=
+  dependencies:
+    safe-buffer "~5.1.0"
 
 strip-ansi@^5.1.0:
   version "5.2.0"
@@ -1139,12 +1255,17 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
+util-deprecate@~1.0.1:
+  version "1.0.2"
+  resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+  integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
 utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-vary@~1.1.2:
+vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://pkgs.dev.azure.com/haivisionpd/13fd3df0-5f94-4eb3-9893-14fe57ded893/_packaging/PD-Artifacts/npm/registry/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
