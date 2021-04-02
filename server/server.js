@@ -13,15 +13,16 @@ const options = {
   useUnifiedTopology: true,
 };
 express()
-  .use(cors({ origin: 'http://localhost:3000' }))
   .use(morgan('dev'))
   .use(express.urlencoded({ extended: false }))
   .use(express.json())
 
+  // hello from server
   .get('/hello', (req, res) => {
     res.status(200).json({ greeting: 'hello from node 👋' });
   })
 
+  // hello from db
   .get('/greeting', async (req, res) => {
     try {
       const client = await MongoClient(MONGO_URI, options);
