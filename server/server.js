@@ -18,7 +18,7 @@ express()
 
   // hello from server
   .get('/hello', (req, res) => {
-    res.status(200).json({ greeting: 'hello from node 👋' });
+    res.status(200).json({ greeting: 'hello from heroku and node 👋' });
   })
 
   // hello from db
