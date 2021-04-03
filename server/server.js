@@ -13,7 +13,7 @@ const options = {
   useUnifiedTopology: true,
 };
 express()
-  .use(cors({ origin: 'https://mern-client.netlify.app/' }))
+  .use(cors({ origin: 'https://mern-client.netlify.app' }))
   .use(morgan('dev'))
   .use(express.urlencoded({ extended: false }))
   .use(express.json())
