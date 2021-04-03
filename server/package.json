@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "simple express app",
   "main": "server.js",
-  "engines": {
-    "node": "12.x",
-    "npm": "6.14.7"
-  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
@@ -14,7 +10,6 @@
   "author": "Bryce Hamilton",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.5",
