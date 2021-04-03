@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 const { MongoClient } = require('mongodb');
 
 require('dotenv').config();
@@ -12,6 +13,7 @@ const options = {
   useUnifiedTopology: true,
 };
 express()
+  .use(cors({ origin: 'https://mern-client.netlify.app/' }))
   .use(morgan('dev'))
   .use(express.urlencoded({ extended: false }))
   .use(express.json())
