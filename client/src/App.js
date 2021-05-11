@@ -8,9 +8,7 @@ function App() {
     const url = `${process.env.REACT_APP_API_URL}/greeting`;
     fetch(url)
       .then((res) => res.json())
-      .then((json) => {
-        setGreeting(json.greeting);
-      });
+      .then((json) => setGreeting(json.greeting));
   }, []);
   return (
     <div className='App'>
